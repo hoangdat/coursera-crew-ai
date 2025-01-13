@@ -1,0 +1,52 @@
+# Virtual Environment
+venv/
+*venv/
+crewai-venv/
+env/
+.env
+.venv
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE - VSCode
+.vscode/
+*.code-workspace
+.history/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Project specific
+*.log
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+pip-log.txt
+pip-delete-this-directory.txt
